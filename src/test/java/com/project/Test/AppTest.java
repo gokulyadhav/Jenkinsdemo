@@ -18,7 +18,7 @@ public class AppTest
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://appium.io/");
 		driver.manage().window().maximize();
-		driver.quit();
+		driver.close();
     }
     
 }
